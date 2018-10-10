@@ -10,7 +10,7 @@ h1 {
 
 .container {
 	width: 450px;
-	height: 450px;
+	height: 500px;
 	background-color: #faebd7;
 	border: 2px solid black;
 	border-radius: 5%;
@@ -19,6 +19,17 @@ h1 {
 /* -----------------------------------------
 	SELECT ALL SQUARES IN THE ARRAY
 --------------------------------------------*/
+.zone .buttons:nth-child(-n+4) {
+	background-color: #c9c9c9;
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 10%;
+	cursor: pointer;
+}
+
 .container .squares:nth-child(-n+4) {
 	background-image: url("../images/icons/smileyface2.png");
 	color: fff;
@@ -28,14 +39,20 @@ h1 {
 	margin: 5px;
 	border: 1px solid black;
 	border-radius: 25%;
-	cursor: pointer;
-	transition: transform 0.5s ease-in-out;
-	visibility: visible;
 }
 
 /* -----------------------------------------
 	SELECT ALL PARAGRAPHS IN THE ARRAY
 --------------------------------------------*/
+.buttons:nth-child(-n+4) p{
+	font-family: "Helvetica Neue", Helventica, Arial, sans-serif;
+	font-size: 1em;
+	color: black;
+	font-weight: 500;
+	text-align: center;
+	margin: 10;
+}
+
 .squares:nth-child(-n+4) p{
 	font-family: "Helvetica Neue", Helventica, Arial, sans-serif;
 	font-size: 1.5em;
@@ -77,9 +94,9 @@ h1 {
 	animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
-/*------------------------------
+/*-------------------------
 	RECOLORIZE WHEN HOVERED
-------------------------------*/
+-------------------------*/
 .squares:nth-child(1):hover {
 	background: #13b4ff;
 }
