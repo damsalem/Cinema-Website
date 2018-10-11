@@ -123,6 +123,7 @@ section {
 .wrap {
 	height: 100%;
 	width: 100%;
+	position: absolute;
 	/* This ensures that the image cannot
 	render outside of their container
 	without forcing any scrollbars */
@@ -141,7 +142,7 @@ section {
 	/* position: absolute; */ /* to the top edge of the screen */
 	width: 100%;
 	position: fixed;
-	z-index: 100%;
+	z-index: 100;
 	/*background-color: rgba(255,255,255,0.5);*/
 }
 
@@ -179,7 +180,7 @@ section {
 }
 
 .head-sub-main {
-	font-size: 24px;
+	font-size: 23px;
 	font-weight: 500;
 	padding: 50px 20px 10px 20px;
 	text-transform: uppercase;
@@ -224,7 +225,7 @@ section {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	color: #13151B;
+	color: #13161B;
 	font-weight: 500;
 	font-size: 1.3em;
 	letter-spacing: 0pt;
@@ -253,7 +254,7 @@ section {
 	font-size: 15px;
 	outline: none;
 	font-weight: 600;
-	color: #8D8E0F;
+	color: #8D8E8F;
 	padding: 12px 12px;
 	width: 70%;
 	border: 1px solid #808080;
@@ -268,13 +269,13 @@ section {
 	font-size: 15px;
 	outline: none;
 	font-weight: 600;
-	color: #8D8E0F;
+	color: #8D8E8F;
 	padding: 2% 1% 2% 7%;
 	width: 80%;
 	border-top: 1px solid #090B0D;
 	border-right: 2px solid #424549;
 	border-bottom: 2px solid #424549;
-	border-left: 1px solid #09050D;
+	border-left: 1px solid #090B0D;
 	margin: 10px 1em;
 	border-radius: 7px;
 	background: #13161B;
@@ -287,11 +288,15 @@ section {
 }
 
 .form-spacer {
-	padding: 30px 30px;
+	padding: 30px 39px;
 }
 
 .terms {
 	margin: 30px 1px 0 0;
+}
+
+.terms {
+	margin-top: 13%;
 	padding-left: 52px;
 	font-size: 14px;
 	line-height: 5px;
@@ -310,7 +315,7 @@ section {
 }
 
 .submit input[type="submit"] {
-	color: rgb(255,255,255);
+	color: rgb(225,225,225);
 	cursor: pointer;
 	border: none;
 	font-weight: 900;
@@ -343,3 +348,37 @@ section {
 	padding: 20px 50px 20px 50px;
 	text-align: right;
 }
+
+/*=======================================
+  @MEDIA QUERIES
+  =======================================*/
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size: 28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size: 24px ;
+    }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+
