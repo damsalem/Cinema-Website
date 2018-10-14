@@ -39,10 +39,10 @@
 							<a class="nav-link" href="#deals">Deals</a>
 						</li>
 					</ul>
-					<!-- The .hidden-md-down function is no longer functional according to 
+					<!-- The hidden-md-down function is no longer functional according to 
 			https://teamtreehouse.com/community/bootstrap-hidden-isnt-working-for-me-please-help
 			so this feature doesn't work. -->
-					<form class="form-inline my-2 my-lg-0 hidden-sm-down" id="search">
+					<form class="form-inline my-2 my-lg-0 hidden-md-down">
 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 					</form>
@@ -51,10 +51,10 @@
 			<!-- End Navigation bar -->
 			
 			<!-- Jumbotron -->
-			<!-- The .hidden-md-down function is no longer functional according to 
+			<!-- The hidden-md-down function is no longer functional according to 
 			https://teamtreehouse.com/community/bootstrap-hidden-isnt-working-for-me-please-help
 			so this feature doesn't work. -->
-			<div class="mt-4 jumbotron jumbotron-fluid text-center bg-info .hidden-md-down">
+			<div class="jumbotron mt-5 jumbotron-fluid text-center bg-info hidden-md-down">
 				<div class="container">
 					<h1 class="display-2">Academy Cinemas</h1>
 					<p class="lead">Sit back, relax and enjoy the show!</p>
@@ -63,7 +63,7 @@
 			<!-- End Jumbotron -->
 			
 			<!-- Main Content -->
-			<div class="container my-5" id="about">
+			<div class="container my-5">
 				<div class="row">
 					<div class="col -md-4 pt-5">
 						<h3>About Academy Cinemas</h3>
@@ -73,14 +73,14 @@
 					</div>
 					<div class="col -md-4 pt-5">
 						<h3>Accommodations</h3>
-						<p>All of our accommodations are equipped with a brand new Christie 3D &copy; sound system!</p>
+						<p id="about">All of our accommodations are equipped with a brand new Christie 3D &copy; sound system!</p>
 						<p>Relax in our extra-wide, ultra-plush cushioned recliners. Seating is a first-come, first-served basis. Our seating arrangement is disability friendly &#9855;</p>
 						<p>Our auditoriums are climate controlled to approximately 72 year around.</p>
 					</div>
-					<div class="col -md-4 pt-5" id="showtimes">
+					<div class="col -md-4 pt-5">
 						<h3>Showtimes</h3>
 							<ul class="list-group">
-								<li class="list-group-item">
+								<li class="list-group-item" id="showtimes">
 									<a class="nav-link" href="">Kong: Skull Island</a>
 								</li>
 								<li class="list-group-item">
