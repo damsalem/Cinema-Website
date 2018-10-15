@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/cinema_style.css">
 
   </head>
@@ -16,13 +16,13 @@
 		<div class="container">
 		
 			<!-- Navigation bar -->
-			<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+			<nav class="navbar navbar-toggleable-md fixed-top navbar-light" style="background-color: #e3f2fd;">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 				<a class="navbar-brand" href="#">
 					<img src="./images/img/movie_logo.gif" width="60" height="58" alt="">
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
@@ -39,10 +39,7 @@
 							<a class="nav-link" href="#deals">Deals</a>
 						</li>
 					</ul>
-					<!-- The hidden-md-down function is no longer functional according to 
-			https://teamtreehouse.com/community/bootstrap-hidden-isnt-working-for-me-please-help
-			so this feature doesn't work. -->
-					<form class="form-inline my-2 my-lg-0 hidden-md-down">
+					<form class="form-inline my-2 my-lg-0 hidden-sm-down">
 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 					</form>
@@ -51,10 +48,7 @@
 			<!-- End Navigation bar -->
 			
 			<!-- Jumbotron -->
-			<!-- The hidden-md-down function is no longer functional according to 
-			https://teamtreehouse.com/community/bootstrap-hidden-isnt-working-for-me-please-help
-			so this feature doesn't work. -->
-			<div class="jumbotron mt-5 jumbotron-fluid text-center bg-info hidden-md-down">
+			<div class="jumbotron jumbotron-fluid text-center bg-info mt-4 hidden-md-down">
 				<div class="container">
 					<h1 class="display-2">Academy Cinemas</h1>
 					<p class="lead">Sit back, relax and enjoy the show!</p>
@@ -212,7 +206,7 @@
 				<li class="nav-item">
 					<small><a class="nav-link active" href="#">Movie Rewards</a></small>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item">4me	
 					<small><a class="nav-link" href="#">Movie@news.org</a></small>
 				</li>
 				<li class="nav-item">
@@ -231,8 +225,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
